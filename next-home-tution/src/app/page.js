@@ -15,7 +15,7 @@ const Home = () => {
       <div className="container w-4/5 flex flex-col justify-center gap-y-4 mx-auto mt-8">
         <QuotesSlider />
         <div className="w-full">
-          <div className=" rounded-sm w-80 m-auto text-3xl font-bold flex justify-center bg-gray-400 text-center py-2 mt-4 text-white">
+          <div className=" rounded-sm w-80 m-auto text-3xl font-bold flex justify-center bg-gray-200 text-center py-2 mt-4 text-gray-600">
             <Image
               src='/image.gif'
               alt="Example GIF"
@@ -34,7 +34,7 @@ const Home = () => {
           </div>
         </div>
         <div className="w-full">
-          <div className=" rounded-sm w-80 m-auto text-3xl font-bold flex justify-center bg-gray-400 text-center py-2 mt-4 text-white">
+          <div className=" rounded-sm w-80 m-auto text-3xl font-bold flex justify-center bg-gray-200 text-center py-2 mt-4 text-gray-600">
             <Image
               src='/image.gif'
               alt="Example GIF"
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
 
         <div className="w-full">
-          <div className=" rounded-sm w-80 m-auto text-3xl font-bold flex justify-center bg-gray-400 text-center py-2 mt-4 text-white">
+          <div className=" rounded-sm w-80 m-auto text-3xl font-bold flex justify-center bg-gray-200 text-center py-2 mt-4 text-gray-600">
             <Image
               src='/image.gif'
               alt="Example GIF"
@@ -65,7 +65,7 @@ const Home = () => {
         </div>
 
         <div className="w-full">
-          <div className="w-80 rounded-sm m-auto text-3xl font-bold flex justify-center bg-gray-400 text-center py-2 mt-4 text-white">
+          <div className="w-80 rounded-sm m-auto text-3xl font-bold flex justify-center bg-gray-200 text-center py-2 mt-4 text-gray-600">
             <Image
               src='/image.gif'
               alt="Example GIF"
@@ -81,7 +81,7 @@ const Home = () => {
           </div>
         </div>
         <div className="w-full mb-4">
-          <div className="w-80 rounded-sm m-auto text-3xl font-bold flex justify-center bg-gray-400 text-center py-2 mt-4 text-white">
+          <div className="w-80 rounded-sm m-auto text-3xl font-bold flex justify-center bg-gray-200 text-center py-2 mt-4 text-gray-600">
             <Image
               src='/image.gif'
               alt="Example GIF"
