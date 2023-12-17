@@ -30,7 +30,7 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-            <div className="w-1/2 bg-gray-300 rounded-md px-4 py-2">
+            <div className="w-1/2 bg-gray-200 rounded-md px-4 py-2">
                 <ContactForm />
             </div>
         </div>
