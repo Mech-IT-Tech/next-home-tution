@@ -1,7 +1,7 @@
 
 export default function Slides({image, date, publisher, title}) {
     return (
-        <div className={`relative w-full h-full transition duration-150 ease-in hover:scale-x-3 opacity-60 hover:opacity-100`}>
+        <div className={`relative w-full h-full hover:scale-125 hover:z-10 transition duration-150 ease-in hover:scale-x-3 opacity-60 hover:opacity-100`}>
             <div className='absolute w-full h-full flex flex-col justify-end gradient'>
                 <div className='text-2xl font-semibold text-white mb-4 m-2'>
                     <h2 className=''>
