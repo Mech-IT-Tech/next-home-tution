@@ -72,17 +72,7 @@ const NavBar = () => {
                             <span className='underline'>Sign in</span>
                         </Link>
                     </div>
-
                 </div>
-
-
-                <div className="md:hidden bg-gray-700 p-2">
-                    <Link href="/">Home</Link>
-                    <Link href="/about">About</Link>
-                    <Link href="/services">Services</Link>
-                    <Link href="/contact">Contact</Link>
-                </div>
-
             </div>
         </nav>
     );

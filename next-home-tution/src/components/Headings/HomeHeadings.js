@@ -8,7 +8,7 @@ export default function HomeHeadings({heading}) {
                 alt="Example GIF"
                 width={50}
                 height={20}
-                className="mx-2"
+                // className="mx-2"
             />
             <h2 className="w-auto bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-violet-300">{heading.toUpperCase()}</h2>
         </div>

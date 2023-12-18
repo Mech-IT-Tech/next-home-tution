@@ -12,7 +12,7 @@ export default function StudentsReviews({ type }) {
         </div>
         <div className='relative border pb-8'>
             <div className={`h-${reviewsHeight ? 'auto animationHeightMore' : '80 animationHeightLess'}  overflow-hidden p-4`}>
-                {StudentsReviewsDatas.map(({ image, name, comment, rate }) => <ReviewsPage name={name} image={image} comment={comment} rate={rate} />)}
+                {StudentsReviewsDatas.map(({ image, name, comment, rate }, idx) => <ReviewsPage key={idx} name={name} image={image} comment={comment} rate={rate} />)}
             </div>
             <div className='absolute px-4 shadow-slate-800 font-bold'>
                 <button onClick={() => setReviewsheight(!reviewsHeight)}>{reviewsHeight ? 'See less...' : 'See More...'}</button>
